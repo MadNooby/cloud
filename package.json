@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d allofcomplie",
-    "dev"  : "node_modules/.bin/webpack-dev-server --content-base ./ --inline --hot"
+     "build": "babel src -d public/js",
+    "dev"  : "node_modules/.bin/webpack-dev-server --content-base ./ --inline --hot",
+    "scss-compile": "node-sass -rw sdd -o assets/css"
   },
   "scrips": {
     "build": "babel --presets es2015 src -d allofcomplie"
