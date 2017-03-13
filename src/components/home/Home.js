@@ -26,14 +26,14 @@ export default class Home extends React.Component{
 	xyz(){
 		return(
 			<svg className="myname">
- <g>
-  <title>Layer 1</title>
-  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_3" y="154.92184" x="195.7344"  strokeWidth="0.8">A</text>
-  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_4" y="162.51559" x="213.45315"  strokeWidth="0.8">m</text>
-  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_5" y="162.09371" x="230.32815"  strokeWidth="0.8" >a</text>
-  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_7" y="156.18746" x="245.51565"  strokeWidth="0.8">N</text>
- </g>
-</svg>
+			 <g>
+			  <title>Layer 1</title>
+			  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_3" y="154.92184" x="195.7344"  strokeWidth="0.8">A</text>
+			  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_4" y="162.51559" x="213.45315"  strokeWidth="0.8">m</text>
+			  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_5" y="162.09371" x="230.32815"  strokeWidth="0.8" >a</text>
+			  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_7" y="156.18746" x="245.51565"  strokeWidth="0.8">N</text>
+			 </g>
+			</svg>
 		);
 	}
 
