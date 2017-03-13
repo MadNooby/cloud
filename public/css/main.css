@@ -68,7 +68,10 @@ fieldset {
 textarea {
     resize: vertical;
 }
-
+img{
+    border:none;
+    outline: none;
+}
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -80,26 +83,141 @@ textarea {
     padding: 0.2em 0;
 }
 
+ul,li{
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0 1%; 
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: 100;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nav{
+    height: 80px;
+    width:100vw; 
+    background-color:rgb(42, 174, 189);
+    line-height: 70px;
+    color:white;
+
+}
+.nav-nav{
+    height: 100%;
+    vertical-align: middle;
+    font-size: 1.3em;
+
+}
+.focus-adjust{
+    display: none;
+}
+
+.icon-floater{
+    height: 100px;
+    border: none;
+    text-decoration: none;
+    display: inline;
+    background: url("../img/i1.png");
+    -webkit-background-size: 0 200px;
+    background-size: 528px 68px;
+    background-position:-132px -38px;
+    
+}
+.pad-left{
+    padding-left:5%;
+}
 
 
+/*slider*/
+.slider-text{
+
+   font-size: 2.2em;
+
+}
+
+.slider{
+    height: 100vh;  
+    position: relative;
+   /* background: url("../img/slid2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+    background: linear-gradient(45deg, #0077b5,#008891);
+    
+}
+.effect{
+    height: 100%;width: 100%;background-color: black;opacity:0.35;
+}
 
 
+/*logooo*/
+.logo{
+    float: right;
+    margin-right: 40%;
+}
+.inc-size{
+    height: 100px;
+}
+
+.content-main{
+    padding: 1.2em 50px;
 
 
+}
+.my-img{
+    border-radius: 50%;
+    box-shadow: 1px 8px 8px grey;
+}
+.my-img:hover{
+    box-shadow: 3px 8px 10px lightgrey;
+}
 
+.about-me{
+    font-weight:100;
+    text-align: left;
+    padding-left:10px;
+}
+.getquote{
+    box-shadow:1px 4px 4px grey;
+}
+.myname{
 
+    height: 300px;width: 400px;      
+    position: absolute;
+    bottom: -50%;left: 0;
+    transform: scale(1.5);
 
+}
+#svg_3,#svg_4,#svg_5,#svg_7{
+    stroke: #00ff00;
+    font-weight: 100;
+    fill: white;
+    font-size: 2em;
+    text-shadow: 5px 5px 4px grey;
+}
 
+.fainter{
+    height: 300px;width: 100%;
+    position: fixed;
+    bottom:0;left:0;
+    z-index:1;
+}
+.chck{
+    z-index:2;
+    position: relative;
+    background: white;
+}
+.cnter{
+    width: 65%;
+    margin: 0 auto;
 
-
-
-
-
-
-
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -180,9 +298,28 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+
+@media only screen and (max-width: 60em) {
+   body{
+    font-size:0.9em;
+   }
+   .nav-nav{
+    font-size: 1.1em;
+   }
 }
+
+@media only screen and (max-width: 35em) {
+    .nav-nav{
+        display: font;
+
+    }
+
+    .focus-adjust{
+        display: inline-block;
+    }
+   
+}
+
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
