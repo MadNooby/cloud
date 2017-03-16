@@ -8,7 +8,7 @@ export default class Slider extends React.Component{
 				<span className="w3-container slider-text w3-display-middle">
 					<div className="w3-center">
 						<h1 className="slider-text w3-text-white">
-							One Stop Solution For <br /> EveryThing.
+							I AM <br /> AMAN SAPRA.
 						</h1>
 					</div>
 				</span>

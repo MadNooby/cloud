@@ -5,7 +5,7 @@ export default class Work extends React.Component{
 	constructor() {
 		super();
 		this.state={
-			title:["Photoshop","Shell","WordPRess Scanner","Messenger","Crawler","Physics Engine","Flappy Bird","Snake Game","Maze Generator"],
+			title:["Photoshop","Shell","WordPRess Scanner","Messenger","Crawler","Physics Engine","Flappy Bird","Snake Game","Maze Generator","Website"],
 			
 			data:["This app is a PhotoShop kind of software that i created Using Pure javascript and HTML.Pixel Manipulation,Maths related to system etc. Were learned during this",
 			"This is a shell developed in php and linux. Its a backdoor that when uploaded gives a total access to user when accessed on webserver. This SHell contained some very dangerous scripts of encrypting whole system and many dangerous stuff. ",
@@ -15,7 +15,8 @@ export default class Work extends React.Component{
 			"Physics Engine : As the name suggest is putting physics into objects. I Tried to simulate the physics within various objects .I created a firework example where the firework is accelerated with different velocities from ground and when they react there max height the particle system explode. This is still an ongoing project as there are numerous possibilities here. I tried to put life to matter in this :D",
 			"Quite famous game Flapy Bird : Made a graphic Game like flappy Bird Using pure javascript and Horse :) . Not that much of a graphic but playable and enjoyable. My Hourse tries to excalate from bars.",
 			"Another Famous game snake game Was copied and canvased :P. Not that graphical of a snake , this game simulates a snake his chasing food story Quite Similarly",
-			"Maze Generating App made in Javascript was an Awesome Learning app where The app creates a Maze That is solvable and each time a new maze ."],
+			"Maze Generating App made in Javascript was an Awesome Learning app where The app creates a Maze That is solvable and each time a new maze .",
+			"This website including many other websites for startups etc. are developed by me. I am a full stack web developer and can Creat a full functional website from scratch using php/mysql,react/ajax,html5/css3, Javascript."],
 			
 			imgurl:["https://github.com/Anonyme1396/photoshop",
 					"https://github.com/Anonyme1396/shell",
@@ -25,9 +26,10 @@ export default class Work extends React.Component{
 					"https://github.com/Anonyme1396/mycreative/tree/master/js/physics",
 					"https://github.com/Anonyme1396/mycreative/tree/master/js/flappy bird",
 					"https://github.com/Anonyme1396/mycreative/tree/master/js/snake%20game",
-					"https://github.com/Anonyme1396/mycreative/blob/master/js/maze/maze_final.html"],
+					"https://github.com/Anonyme1396/mycreative/blob/master/js/maze/maze_final.html",
+					""],
 
-			imageurl:["img/photoshop.png","img/shell.png","img/scanner.png","img/mess.png","img/crawler.png","img/physics.png","img/flappy.png","img/snake.png","img/maze.png"]
+			imageurl:["img/photoshop.png","img/shell.png","img/scanner.png","img/mess.png","img/crawler.png","img/physics.png","img/flappy.png","img/snake.png","img/maze.png","./img/website.png"]
 		}
 	}
 

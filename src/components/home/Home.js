@@ -25,7 +25,7 @@ export default class Home extends React.Component{
 	}
 	xyz(){
 		return(
-			<svg className="myname">
+			<svg className="myname w3-hide-small">
 			 <g>
 			  <title>Layer 1</title>
 			  <text  textAnchor="middle" fontFamily="Cursive" fontSize="2em" id="svg_3" y="154.92184" x="195.7344"  strokeWidth="0.8">A</text>

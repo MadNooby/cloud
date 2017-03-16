@@ -7,12 +7,12 @@ export default class Nav extends React.Component{
 		return(
 			<div className="nav  w3-light-grey w3-row">
 				<div className="w3-col l7 m6 nav-nav w3-hide-small">
-					<ul className="pad-left">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#achievement">Achievement</a></li>
-						<li><a href="#skills">Skills</a></li>
-						<li><a href="#work">Work</a></li>
+					<ul>
+						<li><a href="#home" className="w3-btn btn w3-green">Home</a></li>
+						<li><a href="#about" className="w3-btn btn w3-green">About</a></li>
+						<li><a href="#achievement" className="w3-btn btn w3-green">Achievement</a></li>
+						<li><a href="#skills" className="w3-btn btn w3-green">Skills</a></li>
+						<li><a href="#work" className="w3-btn btn w3-green">Work</a></li>
 					</ul>
 				</div>
 				<div className="w3-hide-medium w3-hide-large w3-col s4 w3-container" style={{height:"100%"}}>
