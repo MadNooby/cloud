@@ -228,7 +228,7 @@ a{
 }
 .btn{
     transition: all 1s ease;
-    width:150px;
+    width: 17%;
 }
 .btn:hover{
     transform: scale(1.11) translateY(-5px);
@@ -236,6 +236,12 @@ a{
 }
 .left{
     text-align: left;
+}
+.img-pad{
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+
 }
 /* ==========================================================================
    Helper classes
@@ -245,8 +251,28 @@ a{
  * Hide visually and from screen readers
  */
 
+.achv{
+    transition: all 1s ease;
+}
+
 .hidden {
     display: none !important;
+}
+.p3{
+    height: 300px;
+}
+.imag:hover{
+    background:black;
+    opacity: 0.1;
+}
+.imag{
+    position: absolute;
+    top:0;
+    transition: transform 1s ease;
+    left:0;
+    height: 100%;
+    transform: scale(0.95);
+    width: 100%;
 }
 
 /*
@@ -263,6 +289,12 @@ a{
     padding: 0;
     position: absolute;
     width: 1px;
+}
+.fig{
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
 }
 
 /*
@@ -324,6 +356,9 @@ a{
    }
    .nav-nav{
     font-size: 1.1em;
+   }
+   .p3{
+    height: auto;
    }
 }
 
