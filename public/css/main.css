@@ -238,14 +238,10 @@ a{
     text-align: left;
 }
 .img-pad{
-    padding: 10px;
+    /*padding: 10px;*/
     position: relative;
     overflow: hidden;
 
-}
-.achvText{
-    text-align:left;
-    margin-top:20px;
 }
 /* ==========================================================================
    Helper classes
@@ -256,13 +252,23 @@ a{
  */
 
 .achv{
-    transition: all 1s ease;
+    transition: all 0.5s ease;
+    transform:scale(1.1);
+    overflow: hidden;
+
+}
+.achv:hover{
+    transform:scale(1);
 }
 
+.p3:hover >.descText{
+    left:0;
+}
 .hidden {
     display: none !important;
 }
 .p3{
+    position: relative;
     height: 300px;
 }
 .imag:hover{
@@ -277,6 +283,18 @@ a{
     height: 100%;
     transform: scale(0.95);
     width: 100%;
+}
+.descText{
+    position: absolute;
+    bottom: 0;
+    left:100%;
+    transition: all 1s ease;
+    opacity: 0.9;
+    width: 100%;
+    background-color:#95a5a6;
+    color:#ecf0f1;
+    margin-bottom: 0;
+    padding: 5px;
 }
 
 /*

@@ -5,7 +5,7 @@ export default class Work extends React.Component{
 	constructor() {
 		super();
 		this.state={
-			title:["Photoshop","Shell","WordPRess Scanner","Messenger","Crawler","Physics Engine","Flappy Bird","Snake Game","Maze Generator","Website"],
+			title:["Photoshop","Shell","WordPRess Scanner","Messenger","Crawler","Physics Engine","Flappy Bird","Snake Game","Maze Generator","Website","Navigator/Gps APP"],
 			
 			data:["This app is a PhotoShop kind of software that i created Using Pure javascript and HTML.Pixel Manipulation,Maths related to system etc. Were learned during this",
 			"This is a shell developed in php and linux. Its a backdoor that when uploaded gives a total access to user when accessed on webserver. This SHell contained some very dangerous scripts of encrypting whole system and many dangerous stuff. ",
@@ -16,7 +16,8 @@ export default class Work extends React.Component{
 			"Quite famous game Flapy Bird : Made a graphic Game like flappy Bird Using pure javascript and Horse :) . Not that much of a graphic but playable and enjoyable. My Hourse tries to excalate from bars.",
 			"Another Famous game snake game Was copied and canvased :P. Not that graphical of a snake , this game simulates a snake his chasing food story Quite Similarly",
 			"Maze Generating App made in Javascript was an Awesome Learning app where The app creates a Maze That is solvable and each time a new maze .",
-			"This website including many other websites for startups etc. are developed by me. I am a full stack web developer and can Creat a full functional website from scratch using php/mysql,react/ajax,html5/css3, Javascript."],
+			"This website including many other websites for startups etc. are developed by me. I am a full stack web developer and can Creat a full functional website from scratch using php/mysql,react/ajax,html5/css3, Javascript.",
+			"An Geolocation Tracking App that tracks exact location of User and other users near him/her. "],
 			
 			imgurl:["https://github.com/Anonyme1396/photoshop",
 					"https://github.com/Anonyme1396/shell",
@@ -27,9 +28,10 @@ export default class Work extends React.Component{
 					"https://github.com/Anonyme1396/mycreative/tree/master/js/flappy bird",
 					"https://github.com/Anonyme1396/mycreative/tree/master/js/snake%20game",
 					"https://github.com/Anonyme1396/mycreative/blob/master/js/maze/maze_final.html",
+					"",
 					""],
 
-			imageurl:["img/photoshop.png","img/shell.png","img/scanner.png","img/mess.png","img/crawler.png","img/physics.png","img/flappy.png","img/snake.png","img/maze.png","./img/website.png"]
+			imageurl:["img/photoshop.png","img/shell.png","img/scanner.png","img/mess.png","img/crawler.png","img/physics.png","img/flappy.png","img/snake.png","img/maze.png","./img/website.png","./img/nav.png"]
 		}
 	}
 
@@ -37,7 +39,7 @@ export default class Work extends React.Component{
 
 			let x=[];
 			for(let i=0;i<this.state.title.length;i++){
-				x[i]=<Title title={this.state.title[i]} data={this.state.data[i]} imgurl={this.state.imgurl[i]} imageurl={this.state.imageurl[i]} />
+				x[i]=<Title key={i} title={this.state.title[i]} data={this.state.data[i]} imgurl={this.state.imgurl[i]} imageurl={this.state.imageurl[i]} />
 			}
 			return x;
 		}
