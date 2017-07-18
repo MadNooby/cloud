@@ -5,7 +5,7 @@ export default class Work extends React.Component{
 	constructor() {
 		super();
 		this.state={
-			title:["Photoshop","Shell","WordPRess Scanner","Messenger","Crawler","Physics Engine","Flappy Bird","Snake Game","Maze Generator","Website","Navigator/Gps APP"],
+			title:["Photoshop","Shell","WordPRess Scanner","Messenger","Crawler","Physics Engine","Flappy Bird","Snake Game","Maze Generator","Website","Navigator/Gps APP","Image Processing Library","Randomness","Time saviour Extension","Quiz app With real time JAVA compiler","Machine Learning algorithms"],
 			
 			data:["This app is a PhotoShop kind of software that i created Using Pure javascript and HTML.Pixel Manipulation,Maths related to system etc. Were learned during this",
 			"This is a shell developed in php and linux. Its a backdoor that when uploaded gives a total access to user when accessed on webserver. This SHell contained some very dangerous scripts of encrypting whole system and many dangerous stuff. ",
@@ -17,7 +17,12 @@ export default class Work extends React.Component{
 			"Another Famous game snake game Was copied and canvased :P. Not that graphical of a snake , this game simulates a snake his chasing food story Quite Similarly",
 			"Maze Generating App made in Javascript was an Awesome Learning app where The app creates a Maze That is solvable and each time a new maze .",
 			"This website including many other websites for startups etc. are developed by me. I am a full stack web developer and can Creat a full functional website from scratch using php/mysql,react/ajax,html5/css3, Javascript.",
-			"An Geolocation Tracking App that tracks exact location of User and other users near him/her. "],
+			"An Geolocation Tracking App that tracks exact location of User and other users near him/her. ",
+			"While Working on the Photoshop ,I encountered many complex tasks whose algorithms where to be manually wriiten to get the desired effect. Keeping this in mind i decided to create a Library in js to carry out these tasks but using a simple Image Object the library provides. Effects like grayscale,pencil effect ,blur etc where manually coded by me in this. ",
+			"To visually analyze the different nature of random number in nature",
+			"Being addicted to watcing youtube , i wanted an extension that can take control of my browsing activity and 'learn' my actions and predict if the site is good to be spent time or not and limit me using the site",
+			"Just like any advance Wesbite may contain , a quiz app with real time compiler to compile your code, submit your answer and get rated among players playing the game",
+			"I am still working on these but till time i have coded algrithm for regression-> linear Regression, classification-> k Nearest neighbour and working on svm's and Artificial Intelligence"],
 			
 			imgurl:["https://github.com/Anonyme1396/photoshop",
 					"https://github.com/Anonyme1396/shell",
@@ -29,9 +34,14 @@ export default class Work extends React.Component{
 					"https://github.com/Anonyme1396/mycreative/tree/master/js/snake%20game",
 					"https://github.com/Anonyme1396/mycreative/blob/master/js/maze/maze_final.html",
 					"",
-					""],
+					"",
+					"https://github.com/Anonyme1396/mycreative/tree/master/image%20processing%20library",
+					"https://github.com/Anonyme1396/mycreative/tree/master/random%20numbers",
+					"https://github.com/Anonyme1396/extensions",
+					"https://github.com/Anonyme1396/quiz",
+					"https://github.com/Anonyme1396/mycreative/blob/master/js/linear_reg.html"],
 
-			imageurl:["img/photoshop.png","img/shell.png","img/scanner.png","img/mess.png","img/crawler.png","img/physics.png","img/flappy.png","img/snake.png","img/maze.png","./img/website.png","./img/nav.png"]
+			imageurl:["img/photoshop.png","img/shell.png","img/scanner.png","img/mess.png","img/crawler.png","img/physics.png","img/flappy.png","img/snake.png","img/maze.png","./img/website.png","./img/nav.png","./img/lib1.png","./img/random.png","./img/app.png","./img/quiz.png","./img/linear.png"]
 		}
 	}
 
@@ -78,6 +88,13 @@ export default class Work extends React.Component{
 				<h2>Some Awesome Work By Me : </h2>
 				{this.xyz()}
 				<br /><br /><br /><br />
+				<div className="w3-panel">
+					<h3 className="w3-left-align">	
+						Apart from these I have created some CTF's(Captutre the flag) challenges based on web challenges,Binary exploitation etc. 
+						<br />
+						Also alongside working on a startup named Voicebook (all alone code exceeds 350000 lines of code).
+					</h3>
+				</div>
 				<button onClick={this.addNew} className="w3-button w3-blue">ADD NEW</button>
 				
 				<div id="id01" className="w3-modal w3-center">

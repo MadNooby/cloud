@@ -22,6 +22,7 @@ export default class Footer extends React.Component{
 								</form>
 						</div>
 						
+						
 					</div>
 				</div>
 			</footer>

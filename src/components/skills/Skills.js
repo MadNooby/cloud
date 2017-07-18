@@ -5,8 +5,10 @@ export default class Skills extends React.Component{
 		return(
 			<div className="w3-container">
 				<h1>MY SKILLS :</h1>
+
 				<div className="w3-card-4">
 					<div className="w3-row">
+						
 						<div className="w3-twothird w3-container left" style={{paddingTop:"40px"}}>
 							My 4 horsmen of coding are <strong>C</strong>,<strong>Python</strong>,<strong>JAVASCRIPT</strong>,<strong>PHP</strong>.
 							Since the very start of my programming , i always love building softwares/Application from scratch . I have numerous Applications

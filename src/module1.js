@@ -8,7 +8,7 @@ import  Home from "./components/home/Home";
 import  About from "./components/about/About";
 import  Skills from "./components/skills/Skills";
 import  Work from "./components/work/Work";
-import  Achievement from "./components/achievement/Achievement";
+import  Achievement from "./components/Achievement/Achievement";
 
 
 class App extends React.Component{
