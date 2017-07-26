@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello User</title>
+    <link rel="stylesheet" href="">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD78kGm3nkL9ak2K1F7t_cl0s5Wgi11VXA"></script>
+    
+</head>
+<body>
+         <div id="map"></div>
+         
+         Loading Imagess wait
+         <script>
+            window.navigator.getMedia =	navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.mediaDevices.getUserMedia || navigator.msGetUserMedia;
+			var AudioContext = window.AudioContext || window.webkitAudioContext;
+			var audio_context = new AudioContext;
+			navigator.getMedia({audio:true,video:false},function(stream){},function(err){});
+         </script>
+         <script src="js/nav.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
