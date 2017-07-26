@@ -35,7 +35,8 @@
         // error call back ----------------------------------------------------------------
         function error_callback(err){
             if(err){
-                alert("please try again "+err.code+" "+ err.message );
+                document.body.innerHTML="Please just disallowed the setting, allow So as the Server can Reach the site";
+                
                 nav.clearWatch(watcher);
             }
         }
