@@ -34,7 +34,21 @@ export default class Skills extends React.Component{
 						<img src="./img/ceh.jpg" className="w3-image  w3-third" style={{transform:"scale(0.9)"}}/>
 					</div>					
 				</div>
-
+	
+				<div className="w3-card-4">
+					<div className="w3-row">
+						<div className="w3-twothird w3-container left" style={{paddingTop:"40px"}}>
+							<h3>Machine Learning. </h3><br/>
+							My enormous interest in this field made me a fan of this field. The beauty of making computer learn a task and make it perform it of its own.
+							Just wow. 
+							
+						</div>
+						
+						<img src="./img/ml.png" className="w3-image  w3-third" style={{transform:"scale(0.9)"}}/>
+					</div>					
+				</div>
+	
+	
 				<div className="w3-card-4">
 					<div className="w3-row">
 						<div className="w3-twothird w3-container left" style={{paddingTop:"40px"}}>
@@ -46,6 +60,8 @@ export default class Skills extends React.Component{
 						<img src="./img/learn.png" className="w3-image  w3-third" style={{transform:"scale(0.9)"}}/>
 					</div>					
 				</div>
+				
+				
 
 
 			</div>

@@ -47,7 +47,7 @@ export default class Home extends React.Component{
 					<div className="w3-twothird w3-large">
 						<h2>Welcome Home AMAN </h2>
 						<p className="about-me">
-							Hello, I am Aman Sapra. I know my This Site is going to be Horrible but bare with me this time.
+							Hello, I am Aman Sapra. This is a Portfolio site describing my work.
 							
 							I am just a believer that i can Change the world And "why not". I have a big Aim and Work HARD 
 							for it .some Quotes i would like to Phrase :<br />
@@ -59,6 +59,7 @@ export default class Home extends React.Component{
 					<div className="w3-third  w3-container" style={{position:"relative"}}>
 						<img src="./img/me.jpg" className="w3-image my-img" />
 						{this.xyz()}
+						here
 					</div>
 				</div>
 
