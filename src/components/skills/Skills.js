@@ -15,7 +15,6 @@ export default class Skills extends React.Component{
 							made in these languages some of them are in <a href="#/work" className="w3-text-blue">Work</a> Section of this Website .<br />
 							Some of the Technologies i have worked on are:<br />
 							Java,React for Web and Native mobile Apps,nodeJS,bash,Complete Web Development(HTML5+CSS3).
-
 						</div>
 						
 						<img src="./img/horse.jpg" className="w3-image  w3-third" style={{transform:"scale(0.9)"}}/>

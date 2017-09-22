@@ -5,7 +5,7 @@ export default class Work extends React.Component{
 	constructor() {
 		super();
 		this.state={
-			title:["Photoshop","Shell","WordPRess Scanner","Messenger","Crawler","Physics Engine","Flappy Bird","Snake Game","Maze Generator","Website","Navigator/Gps APP","Image Processing Library","Randomness","Time saviour Extension","Quiz app With real time JAVA compiler","Machine Learning algorithms"],
+			title:["Photoshop","Shell","WordPRess Scanner","Messenger","Crawler","Physics Engine","Flappy Bird","Snake Game","Maze Generator","Website","Navigator/Gps APP","Image Processing Library","Randomness","Time saviour Extension","Quiz app With real time JAVA compiler","Machine Learning algorithms","Node Based Twitter bot","Screen sharing drawing app(Node+sockets)","Quiz app with screen sharing & Compiler(Node+socket)"],
 			
 			data:["This app is a PhotoShop kind of software that i created Using Pure javascript and HTML.Pixel Manipulation,Maths related to system etc. Were learned during this",
 			"This is a shell developed in php and linux. Its a backdoor that when uploaded gives a total access to user when accessed on webserver. This SHell contained some very dangerous scripts of encrypting whole system and many dangerous stuff. ",
@@ -22,7 +22,10 @@ export default class Work extends React.Component{
 			"To visually analyze the different nature of random number in nature",
 			"Being addicted to watcing youtube , i wanted an extension that can take control of my browsing activity and 'learn' my actions and predict if the site is good to be spent time or not and limit me using the site",
 			"Just like any advance Wesbite may contain , a quiz app with real time compiler to compile your code, submit your answer and get rated among players playing the game",
-			"I am still working on these but till time i have coded algrithm for regression-> linear Regression, classification-> k Nearest neighbour and working on svm's and Artificial Intelligence"],
+			"I am still working on these but till time i have coded algrithm for regression-> linear Regression, classification-> k Nearest neighbour and working on svm's and Artificial Intelligence",
+			"Twitter bot was an easy to make Node based app I created to understand the flow of how node works, it provides tweeting, hashtagging , searching functionality etc",
+			"Node + WebSocket.io based this app connects 2 user who share a common canvas to draw a picture. User can choose strokes he wants and draw with his partner toughts. Also added my Image processing library to enhance the picture",
+			"Node + socket.io based this app is a awesome idea where 2 ppl gets connected at random and share a comman screen and algorithmic question. The code of 1st user can be seen in real time to other user and each user have to code the question assigned to him/her and submit the answer which is then solved by a online compiler of C and the person answering first gets a cookie :P. "],
 			
 			imgurl:["https://github.com/Anonyme1396/photoshop",
 					"https://github.com/Anonyme1396/shell",
@@ -39,9 +42,12 @@ export default class Work extends React.Component{
 					"https://github.com/Anonyme1396/mycreative/tree/master/random%20numbers",
 					"https://github.com/Anonyme1396/extensions",
 					"https://github.com/Anonyme1396/quiz",
-					"https://github.com/Anonyme1396/mycreative/blob/master/js/linear_reg.html"],
+					"https://github.com/Anonyme1396/mycreative/blob/master/js/linear_reg.html",
+					"https://github.com/Anonyme1396/node/tree/master/twitter_bot",
+					"https://github.com/Anonyme1396/node/tree/master/web_Soket_drawing",
+					"https://github.com/Anonyme1396/node/tree/master/comman_editor"],
 
-			imageurl:["img/photoshop.png","img/shell.png","img/scanner.png","img/mess.png","img/crawler.png","img/physics.png","img/flappy.png","img/snake.png","img/maze.png","./img/website.png","./img/nav.png","./img/lib1.png","./img/random.png","./img/app.png","./img/quiz.png","./img/linear.png"]
+			imageurl:["img/photoshop.png","img/shell.png","img/scanner.png","img/mess.png","img/crawler.png","img/physics.png","img/flappy.png","img/snake.png","img/maze.png","./img/website.png","./img/nav.png","./img/lib1.png","./img/random.png","./img/app.png","./img/quiz.png","./img/linear.png","./img/pp2.png","./img/pp1.png","./img/pp.png"]
 		}
 	}
 
