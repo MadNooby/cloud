@@ -14,7 +14,7 @@ export default class Skills extends React.Component{
 							Since the very start of my programming , i always love building softwares/Application from scratch . I have numerous Applications
 							made in these languages some of them are in <a href="#/work" className="w3-text-blue">Work</a> Section of this Website .<br />
 							Some of the Technologies i have worked on are:<br />
-							Java,React for Web and Native mobile Apps,nodeJS,bash,Complete Web Development(HTML5+CSS3).
+							JavaScript,React for Web and Native mobile Apps,nodeJS+Websockets,bash,Complete Web Development(HTML5+CSS3).
 						</div>
 						
 						<img src="./img/horse.jpg" className="w3-image  w3-third" style={{transform:"scale(0.9)"}}/>
