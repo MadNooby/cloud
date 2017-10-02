@@ -59,10 +59,6 @@ export default class Skills extends React.Component{
 						<img src="./img/learn.png" className="w3-image  w3-third" style={{transform:"scale(0.9)"}}/>
 					</div>					
 				</div>
-				
-				
-
-
 			</div>
 			);
 	}
